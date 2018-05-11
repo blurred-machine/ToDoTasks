@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/add_new_task"
+        android:id="@+id/addNewTask"
+        myapp:showAsAction="ifRoom"
+        android:title="">
+    </item>
+
+    <item android:title=""
+        android:icon="@drawable/completed"
+        android:id="@+id/showCompletedTask"
+        myapp:showAsAction="ifRoom"
+        >
+    </item>
+
+</menu>
